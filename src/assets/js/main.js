@@ -17,6 +17,6 @@
 			aboutSection.querySelector(".tab-content.active").classList.remove("active");
 			// activate new 'tab-content'
 			aboutSection.querySelector(target).classList.add("active");
-		}        
+		}           
 	});	
 })();
