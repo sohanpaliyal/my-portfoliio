@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-portfolio';
+  status1 :any  = false;
 
-  
+  title = 'my-portfolio';
+  toggleType: number = 1;
+
+  toggleClass(toggleType:number){
+    this.toggleType = toggleType
+  }
 }
